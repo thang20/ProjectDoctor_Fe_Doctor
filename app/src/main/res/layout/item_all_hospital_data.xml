@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_weight="5"
+    android:orientation="horizontal"
+    android:layout_margin="15dp"
+    android:background="@drawable/carepay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/ln_home1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/carepay"
+        android:weightSum="5"
+        android:layout_marginHorizontal="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_book_athospital_dt_img"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FAF9F9"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center|left"
+            android:layout_weight="3.7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_book_athospital_dt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginStart="20dp"
+                android:text="Nguyen Ngoc Thang"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txt_book_athospital_dt_time"
+                    android:layout_marginStart="20dp"
+                    android:textColor="#FF7700"
+                    android:textSize="18dp"
+                    android:text="3-20-2022 8:27 AM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/txt_book_athospital_dt_active"
+                    android:layout_marginStart="20dp"
+                    android:textColor="#01F40D"
+                    android:textSize="18dp"
+                    android:text="not yet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_book_athospital_dt_next"
+            android:gravity="center"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/tensang"
+                android:layout_width="20dp"
+                android:layout_height="40dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
